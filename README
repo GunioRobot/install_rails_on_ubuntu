@@ -1,0 +1,14 @@
+== Ruby and Rails installer for Ubuntu
+
+The main objective of this project is to set up a complete environment for developing in Rails. Including test gems and the Hudson test framework.
+
+== Structure
+
+The installers are separeted in folders:
+  - Databases: Mysql, Postgres and Sqlite
+  - Ruby: ruby, rvm, gems
+  - Test:
+  - Depoloy:
+  - Extra:
+  
+= 
