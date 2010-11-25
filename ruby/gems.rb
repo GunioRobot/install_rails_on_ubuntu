@@ -1,4 +1,3 @@
-
 # RAILS and controller related
 gems = %w( rails inherited_resources devise authlogic rake  will_paginate )
 
