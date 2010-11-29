@@ -13,7 +13,7 @@ apt-get -y install libc6-dev libssl-dev libmysql++-dev libsqlite3-dev make build
 # # # # # # # # # # # # # # # # # # # # # # 
 # Set the permissions for the databases installers
 
-  ./databases/chmod +x *
+  chmod +x databases/*
 
 # Install databases
 
@@ -24,7 +24,8 @@ apt-get -y install libc6-dev libssl-dev libmysql++-dev libsqlite3-dev make build
 # # # # # # # # # # # # # # # # # # # # # # 
 # Set the permissions for the IDEs installers
 
-  ./extra/chmod +x *
+  chmod +x extra/*
+  chmod +x ruby/*
 
 # Install IDEs and Extra tools
 
@@ -33,11 +34,6 @@ apt-get -y install libc6-dev libssl-dev libmysql++-dev libsqlite3-dev make build
   ./extra/chrome.sh
   ./ruby/image_magick.sh
   
-# # # # # # # # # # # # # # # # # # # # # # 
-# Set the permissions for the Ruby archives
-
-  ./ruby/chmod +x *
-
 # Install Ruby
 
   ./ruby/ruby.sh
@@ -46,7 +42,7 @@ apt-get -y install libc6-dev libssl-dev libmysql++-dev libsqlite3-dev make build
 # # # # # # # # # # # # # # # # # # # # # # 
 # Set the permissions for the test and frameworks installers
 
-  ./test/chmod +x *
+  chmod +x test/*
 
 # Install test gems and frameworks
 
